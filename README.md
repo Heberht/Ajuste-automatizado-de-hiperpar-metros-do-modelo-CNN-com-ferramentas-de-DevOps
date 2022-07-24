@@ -115,7 +115,7 @@ Tarefa do Monitor de Projeto: Essa tarefa é especializada, portanto, será exec
 
 Como sabemos que todos os trabalhos fazem parte do pipeline de construção, como um requisito do pipeline todos os trabalhos devem ser seriais, o que significa que um trabalho após o outro é concluído, então executam este trabalho depois que project_job2 tem uma compilação estável para isso, também usou a opção Poll SCM que levará a verificar o projeto após cada minuto.
  
- ![image](https://user-images.githubusercontent.com/90334631/180627373-c8434713-b797-42f7-bb84-194e47952113.png)
+![image](https://user-images.githubusercontent.com/90334631/180627453-507475d9-2122-4f3e-913c-4e846bf6d659.png)
 
 
 Assim chegamos ao final deste projeto onde aplicamos a integração de duas das melhores tecnologias disponíveis no mercado ou seja; Aprendizado de máquina e DEVOPS. A combinação dessas duas tecnologias é conhecida como MLOPS. O projeto concluiu com sucesso a tarefa de usar ferramentas DevOps para ajustar os hiperparâmetros do modelo CNNML com uma consideração muito eficiente da complexidade de tempo e espaço.
