@@ -1,6 +1,6 @@
-# Automatizando-o-ajuste-de-hiperpar-metros-do-modelo-CNN-usando-ferramentas-de-DevOps
+# Ajuste automatizado de hiperparâmetros do modelo CNN com ferramentas de DevOps
 
-Automatizando o ajuste de hiperparâmetros do modelo CNN usando ferramentas de DevOps
+Ajuste automatizado de hiperparâmetros do modelo CNN com ferramentas de DevOps
 Necessitamos criar uma imagem de contêiner com o Docker que tenha as bibliotecas Python3, Jupyter-Notebook, Keras, TensorFlow, OpenCV, Numpy e Pandas instaladas usando o Dockerfile. Necessitamos automatizar esse contêiner de forma que assim que inicializamos esse contêiner no Linux REDHAT OS, ele começará automaticamente a treinar o modelo de aprendizado de máquina, que criamos na rede neural convolucional usando um conjunto de dados que temos. Esse modelo consiste em um conjunto de hiperparâmetros que necessitamos afinar cada vez que o modelo é treinado até que ofereça mais de 80 % de precisão. Agora, usando as ferramentas de automatização do Jenkins no RHEL, necessitamos criar 5 tarefas que resolverão automaticamente o problema real.
 
  ![image](https://user-images.githubusercontent.com/90334631/180627230-50c8cc7b-1423-4be1-8f42-bcae9442f257.png)
